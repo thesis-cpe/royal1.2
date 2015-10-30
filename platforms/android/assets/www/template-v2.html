@@ -9,7 +9,7 @@
         <!-- Path to Framework7 Library CSS-->
         <!--IOS-->
         <link rel="stylesheet" href="dist/css/framework7.ios.min.css">
-        <link rel="stylesheet" href="dist/css/framework7.ios.colors.min.css">  
+         <link rel="stylesheet" href="dist/css/framework7.ios.colors.min.css">  
         <!--Material-->
         <link rel="stylesheet" href="dist/css/framework7.material.min.css">  
         <!-- It should be included After main Framework7 styles -->
@@ -24,43 +24,35 @@
                 background-size: cover;
                 background-position: center;
             }
-            .swiper-container {
-                height: 100%;
-            }
-            .swiper-slide {
-                background:#fff;
-            }
-            .swiper-slide span {
-                text-align:center;
-                display:block;
-                margin:20px;
-                font-size:21px;
-            }
         </style> 
         <!--.CSS-->
-        <!--Jquery-->
-
-
-        <!--.Jquery-->
     </head>
     <body> 
         <!-- Status bar overlay for fullscreen mode-->
-        <div class="statusbar-overlay"></div> 
+        <div class="statusbar-overlay"></div>
         <!-- Panels overlay-->
-        <div class="panel-overlay"></div> 
+        <div class="panel-overlay"></div>
+        <!-- Left panel with reveal effect-->
+        <!-- <div class="panel panel-left panel-reveal"> -->
 
+        <!-- Right panel with cover effect-->
+        <!--  <div class="panel panel-right panel-cover">
+            <div class="content-block">
+              <p>Right panel content goes here</p>
+            </div>
+          </div>  -->
         <!-- Views-->
         <div class="views">
             <!-- Your main view, should have "view-main" class-->
             <div class="view view-main">
-                <!-- Top Navbar -->
+                <!-- Top Navbar-->
                 <div class="navbar">
                     <div class="navbar-inner">
-
+                        <!-- We have home navbar without left link-->
                         <div class="center sliding">อุทยานหลวงราชพฤกษ์</div>
 
                     </div>
-                </div>   
+                </div>
                 <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
                 <div class="pages navbar-through toolbar-through">
                     <!-- Page, data-page contains page name-->
@@ -68,10 +60,9 @@
                         <!-- Scrollable page content-->
                         <div class="page-content">
                             <!--เนื้อหา-->
-                            <div class="content-block"> 
-                                <!-- Buttons row as tabs controller -->
-                                <div class="buttons-row"> 
-
+                            <div class="content-block">
+                            <!-- Buttons row as tabs controller -->
+                                <div class="buttons-row">
                                     <!-- Link to 1st tab, active -->
                                     <a href="#tab1" class="tab-link active button">กิจกรรม</a>
                                     <!-- Link to 2nd tab -->
@@ -79,51 +70,34 @@
                                     <!-- Link to 3rd tab -->
                                     <a href="#tab3" class="tab-link button">มัลติมีเดีย</a>
                                 </div>
-                                <!--  </div> -->
-                                <!-- Tabs, tabs wrapper -->
-                                <div class="tabs">
-                                    <!-- Tab 1, active by default แบนเนอร์กิจกรรม -->
-                                    <div id="tab1" class="tab active">
-                                        <div class="content-block">
-
-                                            <!--Slide Banner-->
-
-                                            <!-- Slider -->
-                                            <div class="swiper-container">
-                                               <div class="swiper-wrapper">
-                                                    <div class="swiper-slide">
-                                                        <center><img src="http://www.royalparkrajapruek.org/main/gallery/a4_3-001.jpg" style="width: 290px;"></center> 
-                                                    </div>
-                                                    <div class="swiper-slide"></div>
-                                                    <div class="swiper-slide"></div>
-                                                    <div class="swiper-slide"></div>
-                                                    <div class="swiper-slide"></div>
-                                                </div> 
-                                                <div class="swiper-pagination"></div>  
-                                            </div>
-                                            <!--.Slide Banner-->
-
-                                        </div>
-                                    </div>
-                                    <!-- Tab 2 -->
-                                    <div id="tab2" class="tab">
-                                        <div class="content-block">
-                                            <p>This is tab 2 content</p>
-                                            ...
-                                        </div>
-                                    </div>
-                                    <!-- Tab 3 -->
-                                    <div id="tab3" class="tab">
-                                        <div class="content-block">
-                                            <p>This is tab 3 content</p>
-                                            ...
-                                        </div>
+                            </div>
+                            <!-- Tabs, tabs wrapper -->
+                            <div class="tabs">
+                                <!-- Tab 1, active by default -->
+                                <div id="tab1" class="tab active">
+                                    <div class="content-block">
+                                        <p>This is tab 1 content</p>
+                                        ...
                                     </div>
                                 </div>
+                                <!-- Tab 2 -->
+                                <div id="tab2" class="tab">
+                                    <div class="content-block">
+                                        <p>This is tab 2 content</p>
+                                        ...
+                                    </div>
+                                </div>
+                                <!-- Tab 3 -->
+                                <div id="tab3" class="tab">
+                                    <div class="content-block">
+                                        <p>This is tab 3 content</p>
+                                        ...
+                                    </div>
+                                </div>
+                            </div>
 
 
-                                <!--.เนื้อหา-->
-                            </div> 
+                            <!--.เนื้อหา-->
                         </div> 
                     </div>
                 </div>
@@ -142,16 +116,5 @@
         <script type="text/javascript" src="dist/js/my-app.js"></script>
         <!-- Path to cordova-->
         <script type="text/javascript" src="cordova.js"></script>
-
-
-        <script>  //Slider Banner
-            var myApp = new Framework7();
-
-            // Init slider and store its instance in mySwiper variable
-            var mySwiper = myApp.swiper('.swiper-container', {
-                pagination: '.swiper-pagination'
-            });
-
-        </script>
     </body>
 </html>
