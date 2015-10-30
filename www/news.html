@@ -18,30 +18,9 @@
         <link rel="stylesheet" href="dist/css/my-app.css">
         <!--CSS -->
         <!--กำหนดปก -->
-        <style>
-            .demo-card-header-pic .card-header {
-                height: 40vw;
-                background-size: cover;
-                background-position: center;
-            }
-            .swiper-container {
-                height: 100%;
-            }
-            .swiper-slide {
-                background:#fff;
-            }
-            .swiper-slide span {
-                text-align:center;
-                display:block;
-                margin:20px;
-                font-size:21px;
-            }
-        </style> 
+        <link rel="stylesheet" href="css/royal_css.css">
         <!--.CSS-->
-        <!--Jquery-->
 
-
-        <!--.Jquery-->
     </head>
     <body> 
         <!-- Status bar overlay for fullscreen mode-->
@@ -78,23 +57,27 @@
                                     <a href="#tab2" class="tab-link button">ข่าวสาร</a>
                                     <!-- Link to 3rd tab -->
                                     <a href="#tab3" class="tab-link button">มัลติมีเดีย</a>
+                                    <!-- Link to 4th tab -->
+                                 <!--   <a href="#tab4" class="tab-link button">เผื่อ</a>  -->
                                 </div>
                                 <!--  </div> -->
                                 <!-- Tabs, tabs wrapper -->
                                 <div class="tabs">
                                     <!-- Tab 1, active by default แบนเนอร์กิจกรรม -->
                                     <div id="tab1" class="tab active">
-                                        <div class="content-block">
+                                        <div class="content-block"> 
 
                                             <!--Slide Banner-->
 
                                             <!-- Slider -->
                                             <div class="swiper-container">
-                                               <div class="swiper-wrapper">
+                                                <div class="swiper-wrapper">
                                                     <div class="swiper-slide">
                                                         <center><img src="http://www.royalparkrajapruek.org/main/gallery/a4_3-001.jpg" style="width: 290px;"></center> 
                                                     </div>
-                                                    <div class="swiper-slide"></div>
+                                                    <div class="swiper-slide">
+                                                        <center><img src="http://www.royalparkrajapruek.org/main/gallery/MMMMMMM.jpg" style="width: 290px;"></center> 
+                                                    </div>
                                                     <div class="swiper-slide"></div>
                                                     <div class="swiper-slide"></div>
                                                     <div class="swiper-slide"></div>
@@ -103,22 +86,70 @@
                                             </div>
                                             <!--.Slide Banner-->
 
-                                        </div>
+                                        </div> 
                                     </div>
                                     <!-- Tab 2 -->
                                     <div id="tab2" class="tab">
-                                        <div class="content-block">
-                                            <p>This is tab 2 content</p>
-                                            ...
-                                        </div>
+                                        <div class="content-block"> 
+                                            <!--เนื้อหาปกข่าว-->
+                                            <div class="card demo-card-header-pic">
+                                                <a href="#"><div style="background-image:url(img/pic-for-royal/main-menu/firework.jpg)" valign="bottom" class="card-header color-white no-border">กิจกรรมและเทศกาล</div></a>
+                                                <!--  <div class="card-content">
+                                                      <div class="card-content-inner">
+  
+                                                          <p>คำโปรย...</p>
+                                                      </div>
+                                                  </div>
+                                                  <div class="card-footer">
+                                                      <a href="#" class="link">รายละเอียด...</a>
+                                                  </div> -->
+                                            </div>
+
+                                            <div class="card demo-card-header-pic">
+                                                <a href="#"><div style="background-image:url(img/pic-for-royal/main-menu/knowlege.JPG)" valign="bottom" class="card-header color-white no-border">กิจกรรมและเทศกาล</div></a>
+                                                <!--  <div class="card-content">
+                                                      <div class="card-content-inner">
+  
+                                                          <p>คำโปรย...</p>
+                                                      </div>
+                                                  </div>
+                                                  <div class="card-footer">
+                                                      <a href="#" class="link">รายละเอียด...</a>
+                                                  </div> -->
+                                            </div>
+
+                                            <div class="card demo-card-header-pic">
+                                                <a href="#"><div style="background-image:url(img/pic-for-royal/main-menu/icon.jpg)" valign="bottom" class="card-header color-white no-border">กิจกรรมและเทศกาล</div></a>
+                                                <!--  <div class="card-content">
+                                                      <div class="card-content-inner">
+  
+                                                          <p>คำโปรย...</p>
+                                                      </div>
+                                                  </div>
+                                                  <div class="card-footer">
+                                                      <a href="#" class="link">รายละเอียด...</a>
+                                                  </div> -->
+                                            </div>
+                                            <!--.เนื้อหาปกข่าว-->
+                                        </div> 
                                     </div>
                                     <!-- Tab 3 -->
                                     <div id="tab3" class="tab">
+                                        <div class="content-block"> 
+
+                                            <!--Slide Banner-->
+
+
+                                        </div> 
+                                    </div>
+
+                                    <!-- Tab 3 -->
+                                  <!--  <div id="tab4" class="tab">
                                         <div class="content-block">
-                                            <p>This is tab 3 content</p>
+                                            <p>This is tab 4 content</p>
                                             ...
                                         </div>
-                                    </div>
+                                    </div>  -->
                                 </div>
 
 
@@ -153,5 +184,6 @@
             });
 
         </script>
+        
     </body>
 </html>
