@@ -1,0 +1,14 @@
+C:\Users\thesis_cpe\Documents\NetBeansProjects\royal\platforms\wp8\Bin\Debug\ApplicationIcon.png
+C:\Users\thesis_cpe\Documents\NetBeansProjects\royal\platforms\wp8\Bin\Debug\Background.png
+C:\Users\thesis_cpe\Documents\NetBeansProjects\royal\platforms\wp8\Bin\Debug\com.thesis.royal.dll
+C:\Users\thesis_cpe\Documents\NetBeansProjects\royal\platforms\wp8\Bin\Debug\com.thesis.royal.pdb
+C:\Users\thesis_cpe\Documents\NetBeansProjects\royal\platforms\wp8\Bin\Debug\AppManifest.xaml
+C:\Users\thesis_cpe\Documents\NetBeansProjects\royal\platforms\wp8\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\thesis_cpe\Documents\NetBeansProjects\royal\platforms\wp8\Bin\Debug\CordovaAppProj_Debug_AnyCPU.xap
+C:\Users\thesis_cpe\Documents\NetBeansProjects\royal\platforms\wp8\obj\Debug\App.g.cs
+C:\Users\thesis_cpe\Documents\NetBeansProjects\royal\platforms\wp8\obj\Debug\cordovalib\CordovaView.g.cs
+C:\Users\thesis_cpe\Documents\NetBeansProjects\royal\platforms\wp8\obj\Debug\MainPage.g.cs
+C:\Users\thesis_cpe\Documents\NetBeansProjects\royal\platforms\wp8\obj\Debug\com.thesis.royal.g.resources
+C:\Users\thesis_cpe\Documents\NetBeansProjects\royal\platforms\wp8\obj\Debug\com.thesis.royal.dll
+C:\Users\thesis_cpe\Documents\NetBeansProjects\royal\platforms\wp8\obj\Debug\com.thesis.royal.pdb
+C:\Users\thesis_cpe\Documents\NetBeansProjects\royal\platforms\wp8\obj\Debug\XapCacheFile.xml
